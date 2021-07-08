@@ -1,0 +1,29 @@
+{
+  "companies" : [ {
+    "balance" : 800,
+    "name" : "Wedoogift",
+    "id" : 1
+  }, {
+    "balance" : 3000,
+    "name" : "Wedoofood",
+    "id" : 2
+  } ],
+  "users" : [ {
+    "balance" : 300,
+    "id" : 1
+  }, {
+    "balance" : 0,
+    "id" : 2
+  }, {
+    "balance" : 0,
+    "id" : 3
+  } ],
+  "distributions" : [ [ {
+    "id" : 1,
+    "amount" : 200,
+    "start_date" : "2021/07/03",
+    "end_date" : "2022/07/03",
+    "company_id" : 1,
+    "user_id" : 1
+  } ] ]
+}

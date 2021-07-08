@@ -1,0 +1,42 @@
+{
+  "companies" : [ {
+    "balance" : 600,
+    "name" : "Wedoogift",
+    "id" : 1
+  }, {
+    "balance" : 3000,
+    "name" : "Wedoofood",
+    "id" : 2
+  } ],
+  "users" : [ {
+    "balance" : [ {
+      "wallet_id" : 1,
+      "amount" : 300
+    }, {
+      "wallet_id" : 2,
+      "amount" : 200
+    } ],
+    "id" : 1
+  }, {
+    "balance" : [ ],
+    "id" : 2
+  }, {
+    "balance" : [ ],
+    "id" : 3
+  } ],
+  "distributions" : [ [ {
+    "id" : 1,
+    "amount" : 200,
+    "start_date" : "2021/07/08",
+    "end_date" : "2022/07/08",
+    "company_id" : 1,
+    "user_id" : 1
+  } ], [ {
+    "id" : 2,
+    "amount" : 200,
+    "start_date" : "2021/07/08",
+    "end_date" : "2022/02/28",
+    "company_id" : 1,
+    "user_id" : 1
+  } ] ]
+}
